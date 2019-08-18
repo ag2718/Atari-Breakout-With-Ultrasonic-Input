@@ -1,5 +1,5 @@
 # Overview
-This project essentially takes input from an ultrasonic sensor that is connected to Arduino, which measures its distance from a "slider" (which is a physical device that is part of the project). These measurements translate to the moving of the "paddle" in the Atari Breakout game, which is coded in Python and reads the Arduino's data off of the serial monitor (using the pyserial library). In order to run this project, you will need to run the AtariBreakout.py and DistanceSensor.ino files simultaneously.
+This project takes input from an ultrasonic sensor that is connected to Arduino, which measures its distance from a "slider" (which is a physical device that is part of the project). These measurements translate to the moving of the "paddle" in the Atari Breakout game, which is coded in Python and reads the Arduino's data off of the serial monitor (using the pyserial library). In order to run this project, you will need to run the AtariBreakout.py and DistanceSensor.ino files simultaneously.
 
 # Dependencies
 For Python, you will need both the serial and Pygame libraries. For Arduino, you will need the NewPing library.
